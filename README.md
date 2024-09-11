@@ -41,7 +41,8 @@ export OPENAI_API_KEY="your-api-key"
 Once everything is set up, run the bot using:
 python email_bot.py
 
-Project Structure
+### Project Structure
+
 email_bot.py: Main script that connects to Gmail, reads emails, generates replies using OpenAI, and sends responses.
 client_secrets.json: OAuth2 credentials required for Gmail API access.
 requirements.txt: Python dependencies required for the project (SimpleGmail, OpenAI, etc.).
