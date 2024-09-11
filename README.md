@@ -11,7 +11,7 @@ Getting Started
 Follow the steps below to set up and run the email bot on your local machine.
 
 1. Clone the Repository
-git clone https://github.com/varshat/Email-Bot/tree/main
+git clone https://github.com/varshat/Email-Bot
 cd email-bot
 
 2. Setup Gmail API
