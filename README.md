@@ -12,10 +12,9 @@ Follow the steps below to set up and run the email bot on your local machine.
 
 1. Clone the Repository
 git clone https://github.com/varshat/Email-Bot
-
 cd email-bot
 
-3. Setup Gmail API
+2. Setup Gmail API
 Go to the Google Cloud Console.
 Create a new project (if you don’t have one already).
 Navigate to APIs & Services > Library.
@@ -23,22 +22,22 @@ Search for Gmail API and enable it.
 Go to APIs & Services > Credentials and click Create Credentials.
 Select OAuth 2.0 Client IDs and set the application type to Desktop app.
 
-4. Create Desktop OAuth2 Credentials
+3. Create Desktop OAuth2 Credentials
 After creating the OAuth 2.0 credentials, download the JSON file.
 Move the downloaded JSON file into the project directory.
 
-5. Rename JSON to client_secrets.json
+4. Rename JSON to client_secrets.json
 mv your_downloaded_json_file.json client_secrets.json
 
-6. Install Requirements
+5. Install Requirements
 Install the required dependencies by running the following command:
 pip install -r requirements.txt
 
-7. Set OpenAI API Key
+6. Set OpenAI API Key
 Make sure you have an OpenAI API key. Set it as an environment variable:
 export OPENAI_API_KEY="your-api-key"
 
-8. Run the Email Bot
+7. Run the Email Bot
 Once everything is set up, run the bot using:
 python email_bot.py
 
