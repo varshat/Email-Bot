@@ -1,4 +1,4 @@
-# email-bot
+# Email-Bot
 
 This project is a simple AI-powered email bot that integrates OpenAI's GPT with the SimpleGmail API. The bot reads emails, generates replies based on the content, and sends automated responses. It leverages the power of OpenAI’s language model to streamline email management and improve productivity.
 
@@ -13,7 +13,7 @@ Follow the steps below to set up and run the email bot on your local machine.
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/your-repository/email-bot.git
+git clone https://github.com/varshat/Email-Bot/tree/main
 cd email-bot
 2. Setup Gmail API
 Go to the Google Cloud Console.
